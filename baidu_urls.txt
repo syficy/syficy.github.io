@@ -1,7 +1,7 @@
-https://blog.syficy.com/posts/e51eba26.html
-https://blog.syficy.com/posts/71ae9a19.html
-https://blog.syficy.com/posts/b561ff84.html
-https://blog.syficy.com/posts/a070bf7.html
-https://blog.syficy.com/posts/4a0fe5b4.html
-https://blog.syficy.com/posts/d7af03b0.html
-https://blog.syficy.com/posts/1fd23108.html
+https://blog.syficy.com/N1andArmbian.html
+https://blog.syficy.com/MemoryManagementOfOperatingSystemNotes.html
+https://blog.syficy.com/OperatingSystemProcessManagement.html
+https://blog.syficy.com/OverviewOfCompilationPrinciples.html
+https://blog.syficy.com/IntroductionForDocer.html
+https://blog.syficy.com/UbuntuDesktop.html
+https://blog.syficy.com/start.html
