@@ -1,6 +1,6 @@
 https://blog.syficy.com/N1andArmbian.html
-https://blog.syficy.com/MemoryManagementOfOperatingSystemNotes.html
 https://blog.syficy.com/OperatingSystemProcessManagement.html
+https://blog.syficy.com/MemoryManagementOfOperatingSystemNotes.html
 https://blog.syficy.com/OverviewOfCompilationPrinciples.html
 https://blog.syficy.com/IntroductionForDocer.html
 https://blog.syficy.com/UbuntuDesktop.html
