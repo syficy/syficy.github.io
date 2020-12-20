@@ -87,8 +87,9 @@ ga('send', 'pageview');
 <ol>
 <li>分析退货的主要原因，品类退货频，不同货主、不同客户哪些属于经常退货的，退货的金额与销售金额对比等信息。</li>
 <li>提取冲红的退单。<br>由于数据属于内部数据，因此本文中将对数据进行脱敏处理。<br>额外要求：</li>
-<li>使用数据库进行分析<br>问题难度不大，属于供应链分析，之前在全国数学建模比赛中处理过类似的问题.<h1 id="数据入库"><a href="#数据入库" class="headerlink" title="数据入库"></a>数据入库</h1><h2 id="数据清洗"><a href="#数据清洗" class="headerlink" title="数据清洗"></a>数据清洗</h2>打开excel，可以看到一共有12个月的信息。  分别是2019.4-2019.9,2020.4-2020.9。 通过查看表头，可以发现不同表的表头并不完全相同，因此需要先统一表头。由于表头数据较多，使用python进行分析。</li>
+<li>使用数据库进行分析<br>问题难度不大，属于供应链分析，之前在全国数学建模比赛中处理过类似的问题.  </li>
 </ol>
+<h1 id="数据入库"><a href="#数据入库" class="headerlink" title="数据入库"></a>数据入库</h1><h2 id="数据清洗"><a href="#数据清洗" class="headerlink" title="数据清洗"></a>数据清洗</h2><p>打开excel，可以看到一共有12个月的信息。  分别是2019.4-2019.9,2020.4-2020.9。 通过查看表头，可以发现不同表的表头并不完全相同，因此需要先统一表头。由于表头数据较多，使用python进行分析。</p>
 <p>通过openpyxl读取数据文件。</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">python</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 观察数据</span></span><br><span class="line"><span class="keyword">import</span> openpyxl <span class="comment">#https://openpyxl.readthedocs.io/en/stable/tutorial.html</span></span><br><span class="line"><span class="comment"># 读取数据</span></span><br><span class="line">workbook = openpyxl.load_workbook(<span class="string">"E://data.xlsx"</span>)</span><br></pre></td></tr></table></figure></div>
 <p>分析表头数据：</p>
