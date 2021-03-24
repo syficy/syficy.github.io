@@ -1,3 +1,4 @@
+https://blog.syficy.com/vueWithCiCd.html
 https://blog.syficy.com/awaitAndForeachInjs.html
 https://blog.syficy.com/schoolrouter.html
 https://blog.syficy.com/medicalDataAnalysis.html
